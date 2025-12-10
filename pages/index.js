@@ -7,8 +7,8 @@ import TodoCounter from "../components/TodoCounter.js";
 import { v4 as uuidv4 } from "https://jspm.dev/uuid";
 
 const addTodoButton = document.querySelector(".button_action_add");
-const addTodoPopupEl = document.querySelector("#add-todo-popup");
-const addTodoForm = addTodoPopupEl.querySelector(".popup__form");
+const addTodoPopupElement = document.querySelector("#add-todo-popup");
+const addTodoForm = addTodoPopupElement.querySelector(".popup__form");
 
 const generateTodo = (data) => {
   const handleCheck = (completed) => {
