@@ -9,20 +9,20 @@ class TodoCounter {
     // Call the method to update the text content
     this._updateText();
   }
-
+ 
   updateCompleted(increment) {
     this._completed += increment ? 1 : -1;
     this._updateText();
   }
-
+ 
   updateTotal(increment) {
     this._total += increment ? 1 : -1;
     this._updateText();
   }
-
+ 
   _updateText() {
     this._element.textContent = `Showing ${this._completed} out of ${this._total} completed`;
   }
 }
-
+ 
 export default TodoCounter;
