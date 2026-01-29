@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple ToDo App</title>
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
-
+ 
   <body>
     <div class="page">
       <div class="page__content">
@@ -78,6 +79,7 @@
                     <span class="todo__date"></span>
                   </label>
                   <ul class="todo__buttons">
+                    <!-- List is used to support future additional buttons -->
                     <li>
                       <button class="todo__delete-btn" type="button"></button>
                     </li>
@@ -86,6 +88,7 @@
               </template>
             </ul>
           </section>
+          <script type="module" src="./pages/index.js"></script>
         </main>
       </div>
     </div>
